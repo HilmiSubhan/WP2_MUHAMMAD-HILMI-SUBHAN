@@ -1,15 +1,8 @@
-<?php
-namespace App\Controllers;
-
-class contoh1 extends BaseController
-{
-    Public function index()
-    {
-        echo "<h1>Perkenalkan</h1>";
-        echo "Nama saya Hilmi
-        saya tinggal di bekasi
-        olah raga yang saya sukai adalah
-        bola";
-    }
+<?php 
+class Contoh1 extends CI_Controller 
+{ 
+    public function index() 
+    { echo "<h1>Perkenalkan</h1>"; echo"Nama saya Muhammad Hilmi Subhan 
+        Saya tingga di daerah Bekasi olah raga yang saya sukai adalah Bulutangkis"; 
+    } 
 }
-?>
